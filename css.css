@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:rgb(221, 235, 235);
+}
+
+
+
+header .logo {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 160px;
+}
+
+header > .logo > a > img {
+    margin: 20px 0 20px 40px;
+    margin-bottom: 5px;
+    width: 20%;
+    height: 150px;
+    position: fixed;
+}
+
+header > .logo > .gth {
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 2px 3px 3px white;
+    margin-left: 60px;
+    margin-top: 55px;
+}
+
+header > .rev > img {
+    width: 100%;
+    height: 500px;
+
+}
+
+header > .tt {
+    background-color: blueviolet;
+    display:flex;
+    list-style: none;
+}
+
+header > .tt > li {
+    margin: 0 auto;
+    width: 70%;
+}
+
+header > .tt > li > a:nth-child(4) {
+    border-right: none;
+}
+
+header > .tt > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    min-width: 120px;
+    padding: 10px 20px;
+    border-right: 2px solid white;
+    text-align: center;
+}
+
+header > hr {
+    margin-top: 30px;
+}
+header > .thongtin {
+    background-color: blueviolet;
+}
+header > .thongtin >ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 25px;
+}
+header > .thongtin > ul > li:nth-child(4) > a, 
+header > .thongtin> ul > li:nth-child(7) > a{
+    border: none;
+}
+header > .thongtin > ul >li {
+    margin: 10px auto;
+}
+header > .thongtin >ul >li > i {
+    padding: 10px 10px;
+}
+header > .thongtin > ul > li:nth-child(6) {
+   padding-left: 35%;
+}
+header > .thongtin > ul > li >a#header {
+    text-decoration: none;  
+    color: white;
+    font-size: 18px;
+    transition: 0.5 ease;
+    font-weight: bold;
+    font-size: 20px;
+}
+header > .thongtin > ul > li >a#header:hover {
+    color: red;
+    font-style: italic;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+nav {
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+nav > .Moi {
+    display: flex;
+}
+
+nav > .Moi > .SP {
+    border: 2px solid black;
+    margin: 0 8px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 4px black;
+    margin-top: 10p;
+}
+
+nav > .Moi > .SP > h3 {
+    text-align: center;
+    color:brown;
+    padding: 10px;
+}
+nav > .Moi > .SP > h4 {
+    text-align: center;
+    color:chocolate;
+    font-size: 18px;
+    padding: 10 px;
+}
+
+nav > .Moi > .SP > img:hover {
+    transform: scale(1.15,1.05);
+}
+
+nav > .H {
+    margin: 20px 0 0 30px;
+    font-weight: bold;
+    font-size: 2vw;
+    color:crimson;
+    font-style: italic;
+    border: 2px solid white;
+    background-color: white;
+    display: table;
+    padding: 0 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px ;
+}
+nav > hr {
+    margin: 15px 0 10px 0;
+    width: 70%;
+    margin-left: 15%;
+    justify-content: center;
+}
+nav > .order {
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5vw;
+    text-shadow: 2px 2px orange;
+    color: brown;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav > .tks {
+    font-size: 2vw;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    color: rgb(67, 16, 82);
+}
+
+footer {
+    background-color: rgb(1, 18, 18);
+    color: white;
+    margin-top: 20px;
+
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer >.footinfo {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+footer > .footinfo > .col> h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 0;
+}
+footer > .footinfo > .col2 > h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 0;
+}
+footer > .footinfo > .col3 > h6 {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 15px 0;
+}
+footer > .footinfo > .col {
+    width: 40%;
+}
+footer > .footinfo > .col > p {
+    margin-top: 10px;
+}
+footer > .footinfo > .col > img {
+    width: 250px;
+}
+
+
+footer > .footinfo > .col3 {
+    width: 30%;
+}
+footer > .footinfo > .col3 > p {
+    margin-top: 10px;
+} 
+
+footer > .footinfo > .col3 > p > a{
+   text-decoration: none;
+} 
+
+nav > .dn > a {
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-style: italic;
+    color: black;
+    padding-left: 5px;
+}
+
+nav > .dn > a:hover {
+    font-weight: bold;
+    color:brown;
+}
+nav > .dn {
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 20px;
+}

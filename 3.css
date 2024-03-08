@@ -1,0 +1,33 @@
+/* Dang Ky */
+form{
+    margin: 50px 350px 20px 350px;
+  }
+  fieldset{
+    border-color: black;
+    border-radius: 30px;
+  }
+  label{
+    padding-left: 100px;
+    padding-top: 50px;
+  }
+  legend{
+    color: #cc5a0f;
+    font-size: 2vw;
+    border: 3px solid orangered;
+    border-radius: 10px;
+  }
+  input.a{
+    height: 30px;
+    width: 40%;
+    margin-left: 90px;
+  }
+  input.b{
+    height: 30px;
+    width: 90px;
+    background-color: #206AB5;
+    border-color: #206AB5;
+    color: white;
+    border-radius: 8%;
+    margin-bottom: 10px;
+  }   
+  

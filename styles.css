@@ -1,0 +1,42 @@
+/* Order */
+nav > .Moi > .SP {
+    margin-top: 25px;
+}
+
+/* About Us */
+
+nav > .th {
+    font-size: 4vw;
+    text-align: left;
+    color:rgb(171, 27, 97);
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    margin:30px 0;
+    text-align: center;
+}
+nav > .us > form > .fi {
+    border: 3px solid;
+}
+nav > .us > form > .fi > .le {
+    margin-left: 50px;
+    font-size: 4vw;
+    font-weight: bold;
+}
+nav > .cs { 
+    display: flex;
+    width: 80%;
+    margin-left: 320px;
+    margin-bottom: 30px;
+
+}
+nav > .cs  > .o {
+    border: 2px solid none;   
+    margin: 0 40px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+nav > .cs  > .o > h3 {
+    text-align: center;
+    color:blue
+}
